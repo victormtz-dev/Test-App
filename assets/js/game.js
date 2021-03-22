@@ -65,7 +65,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
         localStorage.setItem("mostRecentScore", score);
 
-        return window.location.assign('/./assets/html/final.html');
+        return window.location.assign('https://victormtz-dev.github.io/Test-App/assets/html/final.html');
     }
 
     questionCounter++;
